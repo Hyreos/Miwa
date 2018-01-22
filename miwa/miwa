@@ -1,0 +1,44 @@
+#pragma once
+
+#include "system/preproc.hpp"
+
+//Core
+
+#include "core/ecs/ecs.hpp"
+#include "core/ecs/world.hpp"
+
+//Graphics
+
+#include "graphics/image_formats.hpp"
+#include "graphics/renderable.hpp"
+#include "graphics/program.hpp"
+#include "graphics/sprite.hpp"
+#include "graphics/tex_properties.hpp"
+#include "graphics/texture.hpp"
+#include "graphics/view.hpp"
+#include "graphics/frame_buffer.hpp"
+
+//Managers
+
+#include "managers/audio.hpp"
+#include "managers/shaders.hpp"
+#include "managers/worlds.hpp"
+#include "managers/render.hpp"
+
+//System
+
+#include "system/locator.hpp"
+
+//Audio
+
+#include "audio/audio_buffer.hpp"
+#include "audio/emitter.hpp"
+#include "audio/ogg_loader.hpp"
+
+//Math
+
+#include <linmath.h>
+
+//OpenGL
+
+#include "graphics/glloader.hpp"
