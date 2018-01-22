@@ -1,0 +1,10 @@
+C++ 
+
+This project has the following dependencies:
+  GLFW
+  OpenGL
+  OpenAL
+  GLAD
+  stbi_image
+  Vorbis
+  GSL
